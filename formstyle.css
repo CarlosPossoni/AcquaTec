@@ -1,0 +1,43 @@
+.box_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f2f2f2 ;
+    height: 300px;
+    width: 400px;
+    color: palevioletred;
+    border-radius: 4px;
+}
+
+.box_input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box_input input {
+    width: 200px;
+    padding: 10px 15px;
+    /* border-radius: 10px; */
+    text-align: center;
+    border: none;
+    border-bottom: solid 2px #e1374e;
+    background-color: #f2f2f2;
+    
+}
+
+
+.box_input button {
+    margin-top: 10px;
+    border: none;
+    background-color: #e1374e;
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: white;
+    align-self: center;
+}
+
+.box_input .senha {
+    margin-top: 10px ;
+}

@@ -91,10 +91,20 @@ body{
     background-color: #32b9cd;
     display: flex;
     color: white;
-    height: 60px;
+    height: 22vh;
 }
 
 .footer .container {
     display: flex;
     justify-content: center;
+}
+
+.header ul #aqui {
+    font-weight: 1000;
+    color: #32b9cd;
+}
+
+a {
+    color: #e3b062;
+    text-decoration: none;
 }
