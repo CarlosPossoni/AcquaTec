@@ -1,4 +1,6 @@
 body{
+    height: 100%;
+    padding: 0;
     margin: 0;
     font-family: sans-serif;
     background-color: black;
@@ -35,7 +37,7 @@ body{
     /* border: solid 3px pink; */
     color: white;
     padding: 40px 0;
-    height: 400px;
+    height: 500px;
     background-image: url("assets/imgs/bg-jelly-fish-para_outras_pags.png");
     background-size: cover;
     
@@ -88,10 +90,11 @@ body{
 }
 
 .footer {
+    height: 80px ;
     background-color: #32b9cd;
     display: flex;
     color: white;
-    height: 22vh;
+    justify-content: end;
 }
 
 .footer .container {
