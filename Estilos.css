@@ -9,11 +9,9 @@ body{
 .header{
     color: #32b9cd; 
     border-bottom: solid 3px #32b9cd;
-    /* border: solid 3px green; */
 }
 
 .container{
-    /* border: solid 3px yellow; */
     width: 80%;
     margin: auto;
 }
@@ -34,26 +32,24 @@ body{
 }
 
 .banner {
-    /* border: solid 3px pink; */
+    display: flex;
     color: white;
     padding: 40px 0;
-    height: 500px;
-    background-image: url("assets/imgs/bg-jelly-fish-para_outras_pags.png");
+    height: 74vh;
+    background-image: url("https://github.com/CarlosPossoni/AcquaTec/blob/main/assets/imgs/bg-jelly-fish-para_outras_pags.png?raw=true");
     background-size: cover;
     
 }
 
 .banner .container {
-    /* border: solid 3px red; */
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 400px;
     
 }
 
 .banner p {
-    /* border: solid 3px green; */
     font-size: 36px;
     width: 280px;
 }
@@ -63,7 +59,6 @@ body{
 }
 
 .social {
-    /* border: solid 3px green; */
     background-color: #e5e5e5;
 }
 
@@ -73,12 +68,10 @@ body{
 
 
 .social .container .boxes {
-    /* border: solid 3px yellow; */
     display: flex;
 }
 
 .box {
-    /* border: #32b9cd solid 2px; */
     margin: 50px 10px 10px 10px;
     display: flex;
     flex-direction: column;
@@ -110,4 +103,14 @@ body{
 a {
     color: #e3b062;
     text-decoration: none;
+}
+
+.chartLine {
+    height: 40vh;
+    width: 40vw;
+}
+
+.chartBar {
+    height: 40vh;
+    width: 40vw;
 }
